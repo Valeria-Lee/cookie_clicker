@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*accent color for later: #8B8BAE*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 8vh;
+    color: #374B4A;
+}
+
+#counter {
+    font-size: 4vh;
+    color: #526760;
+}
+
+#container {
+    background: 100% 100%;
+    background-color: #88D9E6;
+}
+
+#cookie {
+    width: 30vw;
+    background-color: #C5FFFD;
+    border-radius: 4vh;
+}
+
+/*  TO-DO: Animation for clicking the cookie
+#cookie:active{}
+*/
