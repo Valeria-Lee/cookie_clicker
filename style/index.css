@@ -19,9 +19,11 @@ body {
 h1 {
     font-size: 8vh;
     color: #374B4A;
+    padding: 1vw;
 }
 
 #counter {
+    padding: 1vw;
     font-size: 4vh;
     color: #526760;
 }
@@ -32,11 +34,30 @@ h1 {
 }
 
 #cookie {
-    width: 30vw;
+    width: 24vw;
     background-color: #C5FFFD;
     border-radius: 4vh;
+    padding: 1vw;
+    margin: 1vw;
 }
 
-/*  TO-DO: Animation for clicking the cookie
-#cookie:active{}
-*/
+#cookie:active{
+    width: 18vw;
+    padding: 4vw;
+}
+
+#sell-btn {
+    text-align: center;
+    background-color: #297921;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    border: solid 4px #54b54b;
+    box-shadow: 0 0 2px black;
+    padding: 0.2vw;
+    margin: 1vw;
+}
+
+#sell-btn:active {
+    box-shadow: 0 0 6px black;
+}
